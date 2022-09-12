@@ -1,11 +1,12 @@
 ﻿int N = Convert.ToInt32(Console.ReadLine());
 int[] mas = new int[N];
-
-for (int i = 0; i < N; i++)
+for ( int index = 0; i < N; i++)
 {
-    mas[i] = new Random().Next(0, 100);
-    Console.Write(mas[i] + " ");
+    mas[index] = new Random().Next(0, 100);
+    Console.Write(mas[index] + " ");
 }
 
-int min = mas[i];
+int min = mas[0];
 int max = mas[N];
+difference = max - min;
+Console.WriteLine(difference);
