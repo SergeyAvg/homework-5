@@ -6,7 +6,13 @@ for ( int index = 0; i < N; i++)
     Console.Write(mas[index] + " ");
 }
 
-int min = mas[0];
-int max = mas[N];
-difference = max - min;
+int max = mas[i];
+for(int i = 0; i < N; i++)
+{
+    mas[i + 1];
+    if(mas[i] < mas[i + 1])
+    {
+        max = 
+    }
+}
 Console.WriteLine(difference);
